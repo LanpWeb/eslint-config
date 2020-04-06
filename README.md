@@ -1,4 +1,12 @@
-# eslint-config
+# @LanpWeb/eslint-config
+
+## What is it?
+
+This config was created to make code be more standartized and elenant in our team's products. We follow best AirBnb practices, while extending them with some more rules.
+
+## Installing and VSCode setup
+
+You need to follow this steps to make this config work in your project and be synced with VSCode editor and Prettier:
 
 1. Specify .npmrc and add it to .gitignore
 
