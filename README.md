@@ -1,4 +1,4 @@
-eslint-config
+# eslint-config
 
 1. Specify .npmrc and add it to .gitignore
 
