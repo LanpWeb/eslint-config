@@ -1,0 +1,5 @@
+registry=https://registry.npmjs.org
+@lanpweb:registry=https://npm.pkg.github.com/lanpweb
+
+//npm.pkg.github.com/:_authToken=<TOKEN_VALUE>
+//npm.pkg.github.com/lanpweb/:_authToken=<TOKEN_VALUE>
