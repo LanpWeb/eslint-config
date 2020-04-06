@@ -28,9 +28,9 @@ module.exports = {
 };
 ```
 
-6. Install following extensions to your VSCode editor:
+6. Install following extensions to your VSCode editor: ESLint, Flow Language Support, Prettier - Code formatter.
 
-7. Create .vscode/settings.json file and add the following content there: ESLint, Flow Language Support, Prettier - Code formatter
+7. Create .vscode/settings.json file and add the following content there:
 
 ```javascript
 {
