@@ -1,6 +1,6 @@
 ## What is it?
 
-This config was created to make code be more standartized and elenant in our team's products. We follow best AirBnb practices, while extending them with some more rules.
+This config was created to make code be more standartized and elegant in our team's products. We follow best AirBnb practices, while extending them with some more rules.
 
 ## Installing and VSCode setup
 
