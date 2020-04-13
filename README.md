@@ -10,22 +10,24 @@ You need to follow this steps to make this config work in your project and be sy
 
 1. Specify .npmrc and add it to .gitignore
 
-2. Open your .npmrc and add the following config there.
+2. Add GITHUB_TOKEN to your Environment variables(.env file)
+
+3. Open your .npmrc and add the following config there.
    You sholud generate the token from your personal Github profile settigs
 
 ```
 registry=https://registry.npmjs.org
 @lanpweb:registry=https://npm.pkg.github.com/lanpweb
 
-//npm.pkg.github.com/:_authToken=<TOKEN_VALUE>
-//npm.pkg.github.com/lanpweb/:_authToken=<TOKEN_VALUE>
+//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
+//npm.pkg.github.com/lanpweb/:_authToken=$GITHUB_TOKEN
 ```
 
-3. Add Eslint config: `yarn add @lanpweb/eslint-config --dev`
+4. Add Eslint config: `yarn add @lanpweb/eslint-config --dev`
 
-4. `yarn add babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier --dev`
+5. `yarn add babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier --dev`
 
-5. Add .prettierrc.js file:
+6. Add .prettierrc.js file:
 
 ```javascript
 module.exports = {
@@ -36,9 +38,9 @@ module.exports = {
 };
 ```
 
-6. Install following extensions to your VSCode editor: ESLint, Flow Language Support, Prettier - Code formatter.
+7. Install following extensions to your VSCode editor: ESLint, Flow Language Support, Prettier - Code formatter.
 
-7. Create .vscode/settings.json file and add the following content there:
+8. Create .vscode/settings.json file and add the following content there:
 
 ```javascript
 {
@@ -64,4 +66,4 @@ module.exports = {
 }
 ```
 
-8. Congrats, let the magic happen!
+9. Congrats, let the magic happen!
