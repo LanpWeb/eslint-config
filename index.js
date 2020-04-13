@@ -55,6 +55,36 @@ module.exports = {
     // May need for some internal variables like __REDUX_DEVTOOLS_EXTENSION__
     "no-underscore-dangle": 0,
 
+    // Sometimes we may need it - like for asyncForEach function
+    "no-await-in-loop": 0,
+
+    // We may use dynamic require in Node.js
+    "import/no-dynamic-require": 0,
+    "global-require": 0,
+
+    // We may ave some not-camelCase vars when we receive a response from API
+    camelcase: 0,
+
+    // **********
+    // *** a11y
+    // **********
+
+    // Next.js <a> tags may not have href defined inside:
+    // <Link href="/">
+    //   <a>Home</a>
+    // </Link>
+    "jsx-a11y/anchor-is-valid": 0,
+
+    // We're not passing "role" attribute to each div
+    "jsx-a11y/no-static-element-interactions": 0,
+
+    // We're not passing key event for each block that has onClick handlers:
+    // Example: <div onClick={() => {}} onKeyDown={this.handleKeyDown} />
+    "jsx-a11y/click-events-have-key-events": 0,
+
+    // Enforce that a label tag has a text label and an associated control.
+    "jsx-a11y/label-has-associated-control": 0,
+
     // **********
     // *** React.js
     // **********
@@ -70,5 +100,8 @@ module.exports = {
 
     // Checks effect dependencies
     "react-hooks/exhaustive-deps": "warn",
+
+    // We may not dfine defaultProps because of Flow usage
+    "react/require-default-props": 0,
   },
 };
