@@ -66,4 +66,12 @@ module.exports = {
 }
 ```
 
+9. Add .eslintrc with following that extends our config to the root folder:
+
+```javascript
+{
+  "extends": "@lanpweb/eslint-config",
+}
+```
+
 9. Congrats, let the magic happen!
