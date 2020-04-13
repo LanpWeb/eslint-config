@@ -49,6 +49,17 @@ module.exports = {
 }
 ```
 
+If you're planning to use Stylelint, add these lines to this config object(they will disable pre-built VSCode formatting for style files):
+```
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+
+  // Disabling Prettier formatting with VSCode extension because it'll be handled by ESlint and it's built-in Prettier plugin
+  "prettier.disableLanguages": ["javascript", "javascriptreact", "scss"],
+```
+
+
 6. Add .eslintrc with following that extends our config to the root folder:
 
 ```javascript
