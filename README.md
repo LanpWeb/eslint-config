@@ -53,7 +53,7 @@ module.exports = {
 
 ```javascript
 {
-  "extends": "@lanpweb/eslint-config",
+  "extends": "@lanp/eslint-config",
 }
 ```
 
