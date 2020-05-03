@@ -8,7 +8,7 @@ You need to follow this steps to make this config work in your project and be sy
 
 1. Add Eslint config: `yarn add @lanp/eslint-config --dev`
 
-2. `yarn add babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier --dev`
+2. `yarn add babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-flowtype eslint-plugin-import eslint-import-resolver-alias eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier --dev`
 
 3. Add .prettierrc.js file:
 
